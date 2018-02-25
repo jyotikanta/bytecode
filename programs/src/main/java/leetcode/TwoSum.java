@@ -4,6 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class TwoSum {
+    /*
+      Given an array of numbers and a target value this returns the index
+      of the elements in the array which results in a sum of target.
+     */
     public int[] twoSum(int[] nums, int target) {
         Map<Integer,Integer> map= new HashMap<>();
         for(int i=0;i<nums.length;i++)
