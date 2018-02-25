@@ -5,8 +5,8 @@ import java.util.Map;
 
 public class TwoSum {
     /*
-      Given an array of numbers and a target value this returns the index
-      of the elements in the array which results in a sum of target.
+      Given an array of integers, and a target value this method returns indices
+      of the two numbers such that they add up to a specific target input.
      */
     public int[] twoSum(int[] nums, int target) {
         Map<Integer,Integer> map= new HashMap<>();
