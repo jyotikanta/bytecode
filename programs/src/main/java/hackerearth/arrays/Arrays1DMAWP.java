@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Arrays1DMAWP {
     public static void main(String args[]) throws Exception {
         Scanner s = new Scanner(System.in);
+        MonkAndGoodString monkAndGoodString = new MonkAndGoodString();
 
         int m = s.nextInt();
 
