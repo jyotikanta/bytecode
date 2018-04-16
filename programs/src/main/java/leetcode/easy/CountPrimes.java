@@ -31,7 +31,7 @@ public class CountPrimes {
             }
 
         }
-        if(flag==true)
+        if(flag)
             return 1;
         return 0;
     }

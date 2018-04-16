@@ -1,6 +1,5 @@
 package leetcode;
 
-import interviews.company.google.IndexTriplet;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
