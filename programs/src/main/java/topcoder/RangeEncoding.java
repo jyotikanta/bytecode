@@ -2,7 +2,7 @@ package topcoder;
 
 public class RangeEncoding {
 
-    int minRanges(int[] arr)
+    public int minRanges(int[] arr)
     {
         int count = 1;
         for(int i=1; i<arr.length; i++)
