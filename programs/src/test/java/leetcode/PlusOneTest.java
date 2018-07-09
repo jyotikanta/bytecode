@@ -14,12 +14,17 @@ public class PlusOneTest {
                         {new int[]{2, 0, 1, 3}, new int[]{2,0,1,4}},
                         {new int[]{2, 0, 1, 4}, new int[]{2,0,1,5}},
                         {new int[]{3, 6, 1, 0}, new int[]{3,6,1,1}},
-                        {new int[]{1, 3, 6, 9},new int[]{1,3,6,0}}
+                        {new int[]{1, 3, 6, 9},new int[]{1,3,7,0}},
+                        {new int[]{1, 9, 6, 9},new int[]{1,9,7,0}},
+                        {new int[]{1, 9, 9, 9},new int[]{2,0,0,0}},
+                        {new int[]{9, 9, 9, 9},new int[]{1,0,0,0,0}},
+                        {new int[]{9},new int[]{1,0}}
+
                 };
     }
 
     @Test(groups = {"smoke"}, dataProvider = "numbersAndTarget")
-    public void testSolution(int[] arr, int expectedArr) {
+    public void testSolution(int[] arr, int[] expectedArr) {
         PlusOne plusOne = new PlusOne();
         Assert.assertEquals(plusOne.solution(arr), expectedArr);
     }
