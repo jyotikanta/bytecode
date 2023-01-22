@@ -26,7 +26,7 @@ public class GroupAnagramV1
             String key = Arrays.toString(count);
             if(!map.containsKey(key))
             {
-                map.put(key, new ArrayList<>());
+                map.put(key, new ArrayList<String>());
             }
             map.get(key).add(s);
         }

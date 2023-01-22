@@ -20,7 +20,7 @@ public class GroupAnagrams {
             String key = new String(arr);
             if(!map.containsKey(key))
             {
-                map.put(key, new ArrayList<>());
+                map.put(key, new ArrayList<String>());
             }
             map.get(key).add(s);
         }
