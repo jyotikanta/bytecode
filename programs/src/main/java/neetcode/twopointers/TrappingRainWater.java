@@ -22,7 +22,7 @@ public class TrappingRainWater {
         int maxFromLeft = 0;
         int maxFromRight = 0;
         int idxOfMaxFromLeft = 0;
-        int idxOfMaxFromRight = 1;
+        int idxOfMaxFromRight = 0;
         //Calculate the trap range
         while (height[si]==0)
         {
