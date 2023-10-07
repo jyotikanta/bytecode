@@ -16,9 +16,11 @@ public class TopKFreqElement
 
     public int[] topKFrequent(int[] nums, int k) {
         HashMap<Integer,Integer> freqMap = new HashMap<>(nums.length);
+        // 1,1,1,2,2,2,3,3,3,4
         for(int num: nums){
             freqMap.put(num, freqMap.getOrDefault(num,0)+1);
         }
+        //freqMap 1->3, 2->3, 3->3, 4->1
         //create buckets
         ArrayList<ArrayList<Integer>> buckets = new ArrayList<>();
         for(int i=0;i<=nums.length;i++){
@@ -28,10 +30,12 @@ public class TopKFreqElement
             int valueAtKey = freqMap.get(key);
             buckets.get(valueAtKey).add(key);
         }
+        //buckets = {{4},{}, {1,2,3}, {}}
         List<Integer> topKList = new ArrayList<>();
         for(int i=nums.length;i>=0 && topKList.size()<k; i--) {
             topKList.addAll(buckets.get(i));
         }
+        //topKList -> {1,2,3}
         int[] topK = new int[topKList.size()];
         int idx=0;
         for(int i : topKList)
