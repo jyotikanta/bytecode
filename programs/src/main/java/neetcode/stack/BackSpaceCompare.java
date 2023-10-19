@@ -1,14 +1,15 @@
 package neetcode.stack;
 
-import java.util.Stack;
+import java.util.ArrayDeque;
+import java.util.Deque;
 
 public class BackSpaceCompare {
     public static void main(String[] args) {
-        System.out.println(backspaceCompare("xywrrmp", "xywrrm#p"));
+        System.out.println(backSpaceCompare("xywrrmp", "xywrrm#p"));
     }
-    public static boolean backspaceCompare(String s, String t) {
-        Stack<Character> stackS = new Stack<>();
-        Stack<Character> stackT = new Stack<>();
+    public static boolean backSpaceCompare(String s, String t) {
+        Deque<Character> stackS = new ArrayDeque<>();
+        Deque<Character> stackT = new ArrayDeque<>();
         for(char c:s.toCharArray())
         {
             if(c!='#')
