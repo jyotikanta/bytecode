@@ -11,7 +11,6 @@ public class ReverseList {
         }
         LinkedListNode reverse = reverseList(head);
         while (reverse!=null){
-            LinkedListNode curr = reverse;
             System.out.println(reverse.val);
             reverse = reverse.next;
         }
