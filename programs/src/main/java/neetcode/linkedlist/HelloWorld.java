@@ -1,7 +1,5 @@
 package neetcode.linkedlist;
 
-import neetcode.linkedlist.LinkedList;
-
 public class HelloWorld {
     public static void main(String[] args) {
         //["insertHead", 1, "insertHead", 2, "insertTail", 3, "insertTail", 4, "insertHead", 5, "get", 0,

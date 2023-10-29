@@ -104,11 +104,8 @@ class ListNode {
         this.next = null;
     }
 
-    public int getValue() {
-        return this.value;
+    public ListNode(int value, ListNode next) {
+        this.value = value;
+        this.next = next;
     }
-    public ListNode next() {
-        return this.next;
-    }
-
 }
