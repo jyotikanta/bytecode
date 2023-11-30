@@ -3,15 +3,6 @@ package neetcode.sorting;
 import java.util.ArrayList;
 import java.util.List;
 
- class Pair {
-     public int key;
-     public String value;
-
-     public Pair(int key, String value) {
-         this.key = key;
-         this.value = value;
-     }
- }
 public class DemoArrayList {
 
     public static void main(String[] args) {
