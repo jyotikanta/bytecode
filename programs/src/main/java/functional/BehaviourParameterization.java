@@ -1,14 +1,12 @@
 package functional;
 
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
-import java.util.stream.Collectors;
 
-public class FP03Structured {
+public class BehaviourParameterization {
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(10, 20, 21,40, 1, 9, 100, 12, 64, 99);
 
@@ -35,6 +33,10 @@ public class FP03Structured {
                 System.out.println(num);
             }
         };
+        doubleTheEvenNumbers(list, evenPredicate, doubleFunction, println);
+    }
+
+    private static void doubleTheEvenNumbers(List<Integer> list, Predicate<Integer> evenPredicate, Function<Integer, Integer> doubleFunction, Consumer<Integer> println) {
         list.stream()
                 .filter(evenPredicate)
                 .map(doubleFunction)
