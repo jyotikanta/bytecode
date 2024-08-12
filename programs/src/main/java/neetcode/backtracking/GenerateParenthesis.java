@@ -1,9 +1,8 @@
-package neetcode.stack;
+package neetcode.tree;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-import java.util.Stack;
 
 public class GenerateParenthesis {
     public static void main(String[] args) {
@@ -11,7 +10,7 @@ public class GenerateParenthesis {
         System.out.println(gp.generateParanthesis(3));
     }
 
-    Stack<Character> stack = new Stack<>();
+    List<Character> list = new ArrayList<>();
     List<String> res = new ArrayList<>();
     private List<String> generateParanthesis(int n) {
         backtrack(0,0,n);
@@ -20,24 +19,24 @@ public class GenerateParenthesis {
     }
 
     private void backtrack(int openN, int closedN, int n) {
-        if(openN == closedN && closedN == n) {
-            Iterator value = stack.iterator();
-            String temp = "";
+        if(list.size()==n*2) {
+            Iterator<Character> value = list.iterator();
+            StringBuilder temp = new StringBuilder();
             while(value.hasNext()){
-                temp = temp +value.next();
+                temp.append(value.next());
             }
-            res.add(temp);
+            res.add(temp.toString());
         }
 
         if(openN < n){
-            stack.push('(');
+            list.add('(');
             backtrack(openN + 1, closedN , n);
-            stack.pop();
+            list.remove(list.size()-1);
         }
         if(closedN < openN){
-            stack.push(')');
+            list.add(')');
             backtrack(openN, closedN + 1, n);
-            stack.pop();
+            list.remove(list.size()-1);
         }
     }
 
