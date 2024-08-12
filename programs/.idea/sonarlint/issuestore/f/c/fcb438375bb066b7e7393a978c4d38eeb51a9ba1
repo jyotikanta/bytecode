@@ -1,0 +1,7 @@
+
+G	java:S106"+Replace this use of System.out by a logger.(úÈŸä8›Õá­¶1
+G	java:S106	"+Replace this use of System.out by a logger.(«¶à¯8ïˆã­¶1
+G
+java:S1197"*Move the array designators [] to the type.(­‹©û8Ýß³¯¶1
+v
+java:S30121"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(„¬ŒÆ8áß³¯¶1

@@ -1,4 +1,4 @@
-package neetcode.stack;
+package neetcode.tree;
 
 public class DeleteFromBST {
 

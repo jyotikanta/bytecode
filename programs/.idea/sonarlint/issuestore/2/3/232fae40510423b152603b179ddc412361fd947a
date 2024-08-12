@@ -1,0 +1,28 @@
+
+”
+java:S1120"wMake this line start after 2 spaces instead of 4 in order to indent the code consistently. (Indentation level is at 2.)(Çµí‘8Š–´†¤1
+™
+java:S1120"wMake this line start after 4 spaces instead of 8 in order to indent the code consistently. (Indentation level is at 2.)(ı´›Ÿøÿÿÿÿ8‹–´†¤1
+“
+java:S1120
+"wMake this line start after 4 spaces instead of 8 in order to indent the code consistently. (Indentation level is at 2.)(Şö£p8‹–´†¤1
+s	java:S109"RAssign this magic number 7 to a well-named constant, and use the constant instead.(ı´›Ÿøÿÿÿÿ8‹–´†¤1
+s	java:S109"RAssign this magic number 9 to a well-named constant, and use the constant instead.(ı´›Ÿøÿÿÿÿ8‹–´†¤1
+s	java:S109"RAssign this magic number 2 to a well-named constant, and use the constant instead.(ı´›Ÿøÿÿÿÿ8‹–´†¤1
+s	java:S109"RAssign this magic number 5 to a well-named constant, and use the constant instead.(ı´›Ÿøÿÿÿÿ8‹–´†¤1
+s	java:S109"RAssign this magic number 8 to a well-named constant, and use the constant instead.(ı´›Ÿøÿÿÿÿ8‹–´†¤1
+s	java:S109"RAssign this magic number 7 to a well-named constant, and use the constant instead.(ı´›Ÿøÿÿÿÿ8‹–´†¤1
+s	java:S109"RAssign this magic number 2 to a well-named constant, and use the constant instead.(ı´›Ÿøÿÿÿÿ8‹–´†¤1
+s	java:S109"RAssign this magic number 5 to a well-named constant, and use the constant instead.(ı´›Ÿøÿÿÿÿ8‹–´†¤1
+s	java:S109"RAssign this magic number 9 to a well-named constant, and use the constant instead.(ı´›Ÿøÿÿÿÿ8‹–´†¤1
+c
+java:S1106"AMove this left curly brace to the beginning of next line of code.(ÍÙ›úÿÿÿÿ8Œ–´†¤1
+^
+java:S1106"AMove this left curly brace to the beginning of next line of code.(Çµí‘8Œ–´†¤1
+c
+java:S1106	"AMove this left curly brace to the beginning of next line of code.(¼ĞÒ€øÿÿÿÿ8Œ–´†¤1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(è¥¡úÿÿÿÿ8“–´†¤1
+/	java:S121
+"Missing curly brace.(Şö£p8“–´†¤1
+/	java:S121"Missing curly brace.(ˆ¡¯78”–´†¤1
+5	java:S121"Missing curly brace.(„¶áìøÿÿÿÿ8”–´†¤1

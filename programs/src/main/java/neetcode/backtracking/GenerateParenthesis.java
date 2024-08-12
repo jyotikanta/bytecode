@@ -1,4 +1,4 @@
-package neetcode.tree;
+package neetcode.backtracking;
 
 import java.util.ArrayList;
 import java.util.Iterator;

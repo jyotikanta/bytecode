@@ -20,7 +20,7 @@ public class FP02Structured {
         list.stream().distinct().sorted().map(n->n+" ").forEach(System.out::print);
         System.out.println();
 
-        List<String> courses = List.of("GCP","AWS","DS","OS","Networking","Docker","K8","Microservices","Distributed Computing");
+        List<String> courses = Arrays.asList("GCP","AWS","DS","OS","Networking","Docker","K8","Microservices","Distributed Computing");
         System.out.println("=======================Courses===================");
         courses.stream().sorted().map(c->c+"->"+c.length()+" ").forEach(System.out::print);
         System.out.println();

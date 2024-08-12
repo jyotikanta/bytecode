@@ -1,0 +1,12 @@
+
+T
+java:S2589-"7Remove this expression which always evaluates to "true"(¬²ê‘8²‚Ô·1
+G	java:S106"+Replace this use of System.out by a logger.(ÓÎÖº8ÌÃÜÓ·1
+L	java:S106"+Replace this use of System.out by a logger.(‚˜á®şÿÿÿÿ8ÌÃÜÓ·1
+L	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8ÌÃÜÓ·1
+G	java:S106"+Replace this use of System.out by a logger.(ÓÎÖº8ÌÃÜÓ·1
+L	java:S106"+Replace this use of System.out by a logger.(‚˜á®şÿÿÿÿ8ÌÃÜÓ·1
+L	java:S106"+Replace this use of System.out by a logger.(ƒÇãˆúÿÿÿÿ8ÍÃÜÓ·1
+G	java:S106"+Replace this use of System.out by a logger.(•ÚÅº8ÍÃÜÓ·1
+o
+java:S3776""RRefactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.(×Âè¿8ÍÃÜÓ·1

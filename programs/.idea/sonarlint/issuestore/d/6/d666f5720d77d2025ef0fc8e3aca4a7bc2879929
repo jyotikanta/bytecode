@@ -1,0 +1,13 @@
+
+r	java:S106"+Replace this use of System.out by a logger.(ÅíÜóıÿÿÿÿ8¡ˆÛğ1J$2703ad1f-dbc7-4052-b94a-d195ee25749b
+•
+java:S3776
+"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(ÚÛóæ8£ˆÛğ1J$6162fde9-3205-4d99-8857-3435ed26b75c
+~
+java:S1854"6Remove this useless assignment to local variable "rs".(İÆœÇşÿÿÿÿ8£ˆÛğ1J$4183b6c8-71f1-4a89-b2c3-19a09eaf08c0
+y
+java:S1854"6Remove this useless assignment to local variable "le".(øëŞ8£ˆÛğ1J$240c744a-d830-4bf9-beea-059a0163409e
+j
+java:S1481"'Remove this unused "le" local variable.(øëŞ8¤ˆÛğ1J$c91bd57e-5883-4548-bbf5-f82186ac12bb
+o
+java:S1481"'Remove this unused "rs" local variable.(İÆœÇşÿÿÿÿ8¤ˆÛğ1J$332a2a5a-a626-440c-99bd-052d60106823

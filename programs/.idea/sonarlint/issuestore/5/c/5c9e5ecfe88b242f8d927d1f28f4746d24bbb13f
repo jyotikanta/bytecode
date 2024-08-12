@@ -1,0 +1,7 @@
+
+^
+java:S4973)"<Strings and Boxed types should be compared using "equals()".(ë±Âûÿÿÿÿ8ñÀ¶1
+G	java:S106"+Replace this use of System.out by a logger.(¹ÄŞÌ8ÛñÀ¶1
+o
+java:S3776
+"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(ì¡Í›8ÜñÀ¶1

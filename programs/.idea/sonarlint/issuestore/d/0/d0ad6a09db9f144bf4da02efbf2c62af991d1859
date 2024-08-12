@@ -1,0 +1,15 @@
+
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(ž÷¸¶
+@
+java:S1481
+"*Remove this unused "count" local variable.(æÕ¿¼
+<
+java:S1168I"&Return an empty array instead of null.(¥¹ï
+K
+java:S1854N"5Remove this useless assignment to local variable "i".(Ô„û›
+<
+java:S1481N"&Remove this unused "i" local variable.(Ô„û›
+?	java:S106O"+Replace this use of System.out by a logger.(¦Œ¡+
+T
+java:S11442">Remove this unused private "findTwoSumAllCombinations" method.(ÎÌ“ç

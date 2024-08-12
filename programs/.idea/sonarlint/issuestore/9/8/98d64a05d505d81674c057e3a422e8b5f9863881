@@ -1,0 +1,45 @@
+
+
+java:S1120"wMake this line start after 2 spaces instead of 4 in order to indent the code consistently. (Indentation level is at 2.)(Çµí‘
+’
+java:S1120"wMake this line start after 4 spaces instead of 8 in order to indent the code consistently. (Indentation level is at 2.)(È†Ÿøúÿÿÿÿ
+
+java:S1120	"wMake this line start after 4 spaces instead of 8 in order to indent the code consistently. (Indentation level is at 2.)(Ö‚­”
+
+java:S1120"xMake this line start after 6 spaces instead of 12 in order to indent the code consistently. (Indentation level is at 2.)(éâ
+
+java:S1120"xMake this line start after 8 spaces instead of 16 in order to indent the code consistently. (Indentation level is at 2.)(ó™_
+“
+java:S1120"xMake this line start after 8 spaces instead of 16 in order to indent the code consistently. (Indentation level is at 2.)(³Ñ›¥ûÿÿÿÿ
+
+java:S1120"xMake this line start after 8 spaces instead of 16 in order to indent the code consistently. (Indentation level is at 2.)(ÖËe
+l	java:S109"RAssign this magic number 3 to a well-named constant, and use the constant instead.(ïâü©øÿÿÿÿ
+l	java:S109"RAssign this magic number 5 to a well-named constant, and use the constant instead.(ïâü©øÿÿÿÿ
+l	java:S109"RAssign this magic number 9 to a well-named constant, and use the constant instead.(ïâü©øÿÿÿÿ
+m	java:S109"SAssign this magic number 12 to a well-named constant, and use the constant instead.(ïâü©øÿÿÿÿ
+m	java:S109"SAssign this magic number 19 to a well-named constant, and use the constant instead.(ïâü©øÿÿÿÿ
+m	java:S109"SAssign this magic number 90 to a well-named constant, and use the constant instead.(ïâü©øÿÿÿÿ
+n	java:S109"TAssign this magic number 102 to a well-named constant, and use the constant instead.(ïâü©øÿÿÿÿ
+n	java:S109"TAssign this magic number 105 to a well-named constant, and use the constant instead.(ïâü©øÿÿÿÿ
+o	java:S109"UAssign this magic number 1000 to a well-named constant, and use the constant instead.(ïâü©øÿÿÿÿ
+l	java:S109"RAssign this magic number 2 to a well-named constant, and use the constant instead.(ïâü©øÿÿÿÿ
+g	java:S109"RAssign this magic number 2 to a well-named constant, and use the constant instead.(éâ
+W
+java:S1106"AMove this left curly brace to the beginning of next line of code.(«òêá
+W
+java:S1106"AMove this left curly brace to the beginning of next line of code.(Çµí‘
+\
+java:S1106"AMove this left curly brace to the beginning of next line of code.(ÅÌö‰ÿÿÿÿÿ
+\
+java:S1106"AMove this left curly brace to the beginning of next line of code.(ŞîÇúÿÿÿÿ
+\
+java:S1106"AMove this left curly brace to the beginning of next line of code.(¨ˆ¸ıúÿÿÿÿ
+W
+java:S1106"AMove this left curly brace to the beginning of next line of code.(•¬
+W
+java:S1106"AMove this left curly brace to the beginning of next line of code.(å¥‡
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ïâü©øÿÿÿÿ
+G
+java:S1108"1Move this "else" keyword to a new dedicated line.(•¬
+G
+java:S1108"1Move this "else" keyword to a new dedicated line.(å¥‡

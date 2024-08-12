@@ -1,0 +1,28 @@
+
+œ
+java:S2293""YReplace the type specification in this constructor call with the diamond operator ("<>").(ëîß8ä—¦—î1J$0ade9baa-d041-41c6-8063-32628dff7f58
+x
+java:S1066µ"/Merge this if statement with the enclosing one.(èŠ×öşÿÿÿÿ8å—¦—î1J$6c4aebc9-7f46-496c-a1e3-29ca57146da9
+
+java:S3824!"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(õÓ›Ïıÿÿÿÿ8™˜¦—î1J$1a410619-e853-4026-8e91-c7b04d328342
+†
+java:S1155">Use isEmpty() to check whether the collection is empty or not.(ªÑ€Ğşÿÿÿÿ8œ˜¦—î1J$c3415af5-d8d4-42a1-af05-e566356db3bd
+‚
+java:S1854":Remove this useless assignment to local variable "result".(Ëïğşÿÿÿÿ8˜¦—î1J$49a1a1cf-38c3-42a9-90b9-b2b3f8a17ed0
+o
+java:S2201",The return value of "contains" must be used.(¾ø÷€8˜¦—î1J$c40d2023-4ee6-4892-857a-3e0fa2f731b0
+s
+java:S1481"+Remove this unused "result" local variable.(Ëïğşÿÿÿÿ8Ÿ˜¦—î1J$1745fcb1-af43-44c3-8efe-cfd07b7bcd1f
+d
+java:S2129$"!Remove this "Integer" constructor(º²Ù×8¢˜¦—î1J$83c36343-cf41-44b6-a396-c463b460a3bc
+ƒ	java:S125;"<This block of commented-out lines of code should be removed.(äÕ€Šüÿÿÿÿ8£˜¦—î1J$e3c3157e-6810-4acc-9319-723001d58869
+ƒ	java:S125B"<This block of commented-out lines of code should be removed.(Â‚Æ«ÿÿÿÿÿ8£˜¦—î1J$a5137747-2329-49f3-b199-c6175fcfd698
+~	java:S125E"<This block of commented-out lines of code should be removed.(Ö‡Öâ8£˜¦—î1J$95faa6cf-7873-4cd1-b19a-32bfe58d9468
+}	java:S125I"<This block of commented-out lines of code should be removed.(´¬øk8£˜¦—î1J$d999de20-1d77-45cd-8acc-1fe2345b48d3
+~	java:S125N"<This block of commented-out lines of code should be removed.(Â±â–8£˜¦—î1J$f2ad2adf-383f-4083-ab1f-bfbfc65c8b37
+ƒ	java:S125R"<This block of commented-out lines of code should be removed.(¶ƒŸùÿÿÿÿ8£˜¦—î1J$57037c0a-ac29-42f3-88c7-369ad2c1796d
+~	java:S125V"<This block of commented-out lines of code should be removed.(ÿæ—ø8£˜¦—î1J$0dcbedcb-738f-4198-a895-1383846508cd
+z
+java:S1135M"2Complete the task associated to this TODO comment.(’ÎæĞşÿÿÿÿ8£˜¦—î1J$536453cc-c5b8-4e73-a80b-6e8fd3b19a22
+s	java:S106Ì"+Replace this use of System.out by a logger.(·¥¯ıÿÿÿÿ8§˜¦—î1J$83cc1864-96cd-4c6f-bb5b-b6a55ce587ff
+s	java:S106Î"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8§˜¦—î1J$11a66f10-83bf-49be-b9d0-707a1454e71d

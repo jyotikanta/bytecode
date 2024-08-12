@@ -1,0 +1,6 @@
+
+x
+java:S1191"5Use classes from the Java API instead of Sun classes.(ºğ“´8ıÃÑ­ñ1J$74aff7ca-c7c4-4ef2-ae65-59e4a18d0258
+r	java:S106	"+Replace this use of System.out by a logger.(å¹ä“ıÿÿÿÿ8‚ÄÑ­ñ1J$b4d89972-8e0c-4bee-a6aa-d9169d663cd8
+~
+java:S1128";Remove this unused import 'sun.reflect.generics.tree.Tree'.(ºğ“´8œÛ­ñ1J$0269611e-e81d-4ba8-8bb0-5ae92e2361d2

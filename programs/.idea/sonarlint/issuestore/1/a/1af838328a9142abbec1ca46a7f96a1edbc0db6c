@@ -1,0 +1,9 @@
+
+„
+java:S1854"ARemove this useless assignment to local variable "formattedGuid".(„‘Ë±8¹½Îõò1J$5eb8c1bd-db02-47d7-8c9f-3c60c20226c1
+X	java:S125"<This block of commented-out lines of code should be removed.(ïÕ‹“8İÖßõò1
+‹
+java:S5361
+"HReplace this call to "replaceAll()" by a call to the "replace()" method.(„ª»˜8¼½Îõò1J$d4975424-9823-4d0d-9c80-78d6f4f24912
+u
+java:S1481"2Remove this unused "formattedGuid" local variable.(„‘Ë±8½½Îõò1J$ec16136e-2985-42d5-ab41-3779160f31b3

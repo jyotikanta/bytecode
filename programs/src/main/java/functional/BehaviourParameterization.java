@@ -1,10 +1,8 @@
 package functional;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.function.Consumer;
-import java.util.function.Function;
-import java.util.function.Predicate;
+import java.util.*;
+import java.util.function.*;
+import java.util.stream.Collectors;
 
 public class BehaviourParameterization {
     public static void main(String[] args) {
@@ -33,13 +31,40 @@ public class BehaviourParameterization {
                 System.out.println(num);
             }
         };
-        doubleTheEvenNumbers(list, evenPredicate, doubleFunction, println);
+        BinaryOperator<Integer> integerBinaryOperator = new BinaryOperator<Integer>() {
+            @Override
+            public Integer apply(Integer num1, Integer num2) {
+                return num1+num2;
+            }
+        };
+
+        sumDoubleTheEvenNumbers(list, evenPredicate,doubleFunction, integerBinaryOperator);
+
+
+        Supplier<Integer> supplier = ()->new Random().nextInt(1000);
+        System.out.println(supplier.get());
+        UnaryOperator<Integer> unaryOperator = (x)->x*2;
+        System.out.println(unaryOperator.apply(23));
+
+        BiPredicate<Object,Class<?>> biPredicate = (a, b) -> b.isInstance(a);
+        System.out.println(biPredicate.test(new Integer(12),Integer.class));
+
+        BiFunction<Integer, String, String> biFunction = (i,s)->i+s;
+        System.out.println(biFunction.apply(1, " one"));
+        Map<Integer,Integer> map =  list.stream().sorted().distinct().collect(Collectors.toMap(doubleFunction,doubleFunction));
+        map.keySet().stream().sorted().forEach(System.out::println);
+
+
+
     }
 
-    private static void doubleTheEvenNumbers(List<Integer> list, Predicate<Integer> evenPredicate, Function<Integer, Integer> doubleFunction, Consumer<Integer> println) {
-        list.stream()
+    private static void sumDoubleTheEvenNumbers(List<Integer> list, Predicate<Integer> evenPredicate, Function<Integer, Integer> doubleFunction, BinaryOperator<Integer> integerBinaryOperator) {
+
+        Integer res = list.stream()
                 .filter(evenPredicate)
                 .map(doubleFunction)
-                .forEach(println);
+                .reduce(0, integerBinaryOperator);
+                //.forEach(println);
+        System.out.println(res);
     }
 }

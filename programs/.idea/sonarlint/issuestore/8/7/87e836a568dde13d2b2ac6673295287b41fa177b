@@ -1,0 +1,26 @@
+
+”
+java:S1120"wMake this line start after 2 spaces instead of 4 in order to indent the code consistently. (Indentation level is at 2.)(„üİÏ8µ„ô¡1
+™
+java:S1120"wMake this line start after 4 spaces instead of 8 in order to indent the code consistently. (Indentation level is at 2.)(˜íÚÊÿÿÿÿÿ8µ„ô¡1
+”
+java:S1120"wMake this line start after 4 spaces instead of 8 in order to indent the code consistently. (Indentation level is at 2.)(íû£ï8µ„ô¡1
+c
+java:S1106"AMove this left curly brace to the beginning of next line of code.(ÕêÌòúÿÿÿÿ8ƒµ„ô¡1
+^
+java:S1106"AMove this left curly brace to the beginning of next line of code.(Çµí‘8ƒµ„ô¡1
+^
+java:S1106"AMove this left curly brace to the beginning of next line of code.(ŞÜõÙ8ƒµ„ô¡1
+b
+java:S3052"ERemove this initialization to "0", the compiler will do that for you.(„üİÏ8”µ„ô¡1
+O
+java:S2039"2Explicitly declare the visibility for "noofSteps".(„üİÏ8”µ„ô¡1
+X
+java:S1943"6Remove this use of constructor "Scanner(InputStream)".(ª¸ÁØúÿÿÿÿ8šµ„ô¡1
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ÚÚù8›µ„ô¡1
+0	java:S121"Missing curly brace.(íû£ï8šµ„ô¡1
+…
+java:S2234"hParameters to printTowerOfHanoiSteps have the same names but not the same order as the method arguments.(Ë¥¥8›µ„ô¡1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ñğúèûÿÿÿÿ8µÔŠô¡1
+„
+java:S2234"hParameters to printTowerOfHanoiSteps have the same names but not the same order as the method arguments.(†¥£*8›µ„ô¡1

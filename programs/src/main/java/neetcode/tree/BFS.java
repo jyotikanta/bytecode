@@ -1,2 +1,8 @@
-package neetcode.tree;public class BFS {
+package neetcode.tree;
+
+public class BFS {
+    public static void main(String[] args) {
+
+
+    }
 }
