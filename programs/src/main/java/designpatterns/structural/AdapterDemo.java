@@ -1,4 +1,4 @@
-package designpatterns.adapter;
+package designpatterns.structural;
 
 // Modern JPA interface (Target)
 interface JpaRepository<T, ID> {
@@ -75,7 +75,7 @@ class LegacyDbAdapter implements JpaRepository<User, Long> {
 }
 
 // Client code
-public class Main {
+public class AdapterDemo {
     public static void main(String[] args) {
         LegacyDbAccess legacyDb = new LegacyDbAccess();
         JpaRepository<User, Long> userRepository = new LegacyDbAdapter(legacyDb);
