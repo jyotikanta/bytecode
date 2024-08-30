@@ -1,6 +1,7 @@
 package functional;
 
 import java.util.Arrays;
+import java.util.Objects;
 
 public class Course {
     private String name;
@@ -55,5 +56,18 @@ public class Course {
                 ", reviewScore=" + reviewScore +
                 ", noOfStudents=" + noOfStudents +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Course course = (Course) o;
+        return reviewScore == course.reviewScore && noOfStudents == course.noOfStudents && Objects.equals(name, course.name) && Objects.equals(category, course.category);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, category, reviewScore, noOfStudents);
     }
 }

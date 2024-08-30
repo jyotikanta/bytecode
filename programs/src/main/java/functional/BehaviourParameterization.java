@@ -20,7 +20,7 @@ public class BehaviourParameterization {
         Function<Integer, Integer> doubleFunction = new Function<Integer, Integer>() {
             @Override
             public Integer apply(Integer num) {
-                return num*num;
+                return num * num;
             }
         };
 

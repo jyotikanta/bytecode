@@ -31,9 +31,6 @@ public class FP02Structured {
         System.out.println();
         courses.stream().sorted(Comparator.reverseOrder()).map(c->c+" ").forEach(System.out::print);
 
-
-
-
     }
 
     private static void addAllNumbers(List<Integer> list) {

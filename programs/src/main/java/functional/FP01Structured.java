@@ -11,6 +11,15 @@ public class FP01Structured {
         printAllOddNumbersFromTheList(Arrays.asList(23,12,5,8,1,9,7,12,64,99));
         System.out.println("=======================CUBE======================");
         printCubeOfAllEvenNumbersFromTheList(Arrays.asList(23,12,5,8,1,9,7,12,64,99));
+        System.out.println("=======================SUM======================");
+        printSumOFAllNumbersInTheList(Arrays.asList(23,1,1,23,12,5,8,1,9,7,12,64,99));
+
+
+    }
+
+    private static void printSumOFAllNumbersInTheList(List<Integer> list) {
+        System.out.println(list.stream()
+                .reduce(FP01Structured::sum));
     }
 
     private static void printCubeOfAllEvenNumbersFromTheList(List<Integer> list) {
@@ -45,5 +54,9 @@ public class FP01Structured {
         return n%2==0;
     }
 
+    private static int sum(int a, int b){
+        System.out.println(a + " " + b);
+        return a+b;
+    }
 
 }
